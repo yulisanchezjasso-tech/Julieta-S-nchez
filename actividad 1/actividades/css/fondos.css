@@ -1,0 +1,28 @@
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFAD3;
+
+}
+
+.contenedor article{
+    width: 33.3%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#uno{
+    height: 200px;
+    background-color: #FFDBB0;
+    background-image: linear-gradient( to bottom, #fa0101,#f4bebe );
+    border: #FFCCB8;
+    border-radius: 15px;
+}
+
+#dos {
+    height: 200px;
+    background-image: url('../imagen/WhatsApp\ Image\ 2026-09-25\ at\ 7.51.09\ AM.jpeg');
+    background-size:cover ;
+    background-repeat: no-repeat;
+}

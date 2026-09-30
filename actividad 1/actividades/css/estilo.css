@@ -1,0 +1,134 @@
+/*Estilos generals*/
+/*Para adueñarnos de todo el espacio*/
+*{box-sizing:border-box;
+ margin: 0;
+ padding:0;
+}*/
+/*ejemplo de regla para selecto*/
+body{
+    background-color:#EDE8D0;
+    color:#4F4D46;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    line-height: 1.5;
+}
+/*selector por id*/
+#barra_lateral{
+    background-color:#B22222;
+    color: #FDFBD4;
+    font-weight:bold;
+    padding: 20px;
+}
+/*selector por clase*/
+.pie{
+    background-color: #550000;
+    color: #FDFBD4;
+    padding: 20px;
+}
+/*estilo de menu*/
+header{
+    background-color: #820000;
+    color: #550000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 24px;
+
+}
+nav{
+    background-color: #660033;
+    color:#000;
+    padding: 0 16px;
+}
+ 
+nav ul{
+display: flex;
+list-style: none;
+margin:0;
+padding:0;
+gap:100px;
+align-items: center;
+}
+nav li{
+color:#000;
+font-size: 15px;
+padding: 14px 8px;
+cursor: pointer;
+}
+nav li a{
+    color:burlywood;
+    text-decoration: none;
+}
+/*efecto en el enlace*/
+nav li a:hover{
+    background-color: #660033;
+    color:#820000;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+
+/*estilos para las seccion*/
+.renglon{
+    background-color: #4F4D46;
+    color: #EDE8D0;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.renglon aside{
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    border: #000000 5px dotted;
+}
+ 
+.renglon article{
+    width: 70%;
+    background-color: #c32c2c;
+    color: #000;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border: #4F4D46 4px dotted;
+}
+.renglon #galeria{
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+    border: #000 4px  dotted;
+}
+.renglon #mapa {
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: #000 4px  dotted;
+}
+/*estilos footer*/
+footer{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+footer article{
+    width: 33.3%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-top: #dd6464 2px double;
+}
+/*estilos  para titulos*/
+h1  h3{
+font-family: "Playfair Display", serif;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+#barra_lateral ol{
+    display: flex;
+    flex-direction: column-reverse;
+}
