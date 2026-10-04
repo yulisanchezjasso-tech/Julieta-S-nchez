@@ -1,0 +1,129 @@
+/* Estilos generales */
+body {
+    background-color: #f3e5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4a148c;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Encabezado semántico */
+header {
+    background-color: #ab47bc;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Menú lateral semántico (<aside> o <nav>) */
+aside {
+    float: left;
+    width: 180px;
+    background-color: #ce93d8;
+    padding: 15px;
+    border: 1px solid #8e24aa;
+    border-radius: 4px;
+    min-height: 280px;
+}
+
+aside nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside nav li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+aside nav a {
+    color: #4a148c;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+aside nav a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+/* Contenido principal semántico */
+main {
+    margin-left: 215px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ab47bc;
+    border-radius: 4px;
+    min-height: 280px;
+}
+
+section h2 {
+    color: #7b1fa2;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Formularios */
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #4a148c;
+}
+
+input, select {
+    width: 100%;
+    max-width: 300px;
+    padding: 6px;
+    margin-top: 4px;
+    border: 1px solid #ba68c8;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 15px;
+    background-color: #7b1fa2;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #4a148c;
+}
+
+/* Pie de página semántico */
+footer {
+    clear: both;
+    background-color: #e1bee7;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 13px;
+    border: 1px solid #ab47bc;
+    border-radius: 4px;
+}
+
+/* Estilo para los iconos de Google Symbols */
+.material-symbols-outlined {
+    font-size: 18px;
+    vertical-align: middle;
+}
