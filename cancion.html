@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Canción - Sistema Musical</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1><span class="material-symbols-outlined">queue_music</span> Sistema de Gestión Musical</h1>
+    </header>
+
+    <aside>
+        <nav>
+            <ul>
+                <li><span class="material-symbols-outlined">home</span><a href="index.html">01 Home</a></li>
+                <li><span class="material-symbols-outlined">album</span><a href="disco.html">02 Disco</a></li>
+                <li><span class="material-symbols-outlined">mic</span><a href="cantante.html">03 Cantante</a></li>
+                <li><span class="material-symbols-outlined">audiotrack</span><a href="cancion.html">04 Canción</a></li>
+                <li><span class="material-symbols-outlined">playlist_add</span><a href="playlist.html">05 Play list</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main>
+        <section>
+            <h2><span class="material-symbols-outlined">audiotrack</span> Registro de Canción</h2>
+            <form onsubmit="capturarDatos(event, 'Canción')">
+                <label>Nombre:</label>
+                <input type="text" required>
+
+                <label>Duración:</label>
+                <input type="text" placeholder="Ej. 3:45" required>
+
+                <label>Compositor:</label>
+                <input type="text">
+
+                <label>Cantante:</label>
+                <select>
+                    <option>Seleccionar...</option>
+                    <option>Cantante 1</option>
+                </select>
+
+                <button type="submit">Guardar Canción</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Grupo:LDSM 401 &nbsp;&nbsp;|&nbsp;&nbsp; Julieta Sánchez</p>
+    </footer>
+
+</body>
+</html>
