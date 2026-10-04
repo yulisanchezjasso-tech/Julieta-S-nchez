@@ -2,39 +2,88 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Home - Sistema Musical</title>
-    <link rel="stylesheet" href="estilos.css">
-    <!-- Enlace a Google Symbols -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="yulieta ">
+    <meta keywords="html, etiquetas, arquitectura">
+    <title>Mi arquitectura html</title>
+    <link rel="icon" href="img/CAJEROEE-copia 1.ico" type="image/x-icon"/>
+    <link href="css/estilo.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+
 </head>
 <body>
-
     <header>
-        <h1><span class="material-symbols-outlined">queue_music</span> Sistema de Gestión Musical</h1>
-    </header>
-
-    <aside>
+        <img src="img/rancho.jpg" width="400" height="150"/>
         <nav>
-            <ul>
-                <li><span class="material-symbols-outlined">home</span><a href="index.html">01 Home</a></li>
-                <li><span class="material-symbols-outlined">album</span><a href="disco.html">02 Disco</a></li>
-                <li><span class="material-symbols-outlined">mic</span><a href="cantante.html">03 Cantante</a></li>
-                <li><span class="material-symbols-outlined">audiotrack</span><a href="cancion.html">04 Canción</a></li>
-                <li><span class="material-symbols-outlined">playlist_add</span><a href="playlist.html">05 Play list</a></li>
-            </ul>
+            <!--Listas para menu-->
+            <!--ol listas ordenadas (1,2,3)-->
+            <!--ul listas ordenadas (cicle, square, round)-->
+             <ul>
+                <!--elementos de una lista-->
+                <li><a href="http://www.google.com">opcion 1</a></li>
+                <li><a href="contacto.html"target="_parent">opcion 2</a></li>
+                <li><a>Opcion 3</a></li>
+                <li><a>Opcion 4</a></li>
+                <li><a>Opcion 5</a></li>
+             </ul>
         </nav>
-    </aside>
-
+    </header>
     <main>
-        <section>
-            <h2><span class="material-symbols-outlined">waving_hand</span> Bienvenida</h2>
-            <p>Bienvenida al sistema principal de música. Selecciona una opción del menú lateral para comenzar con la captura de datos.</p>
+         <section class="renglon">
+            <aside id="barra_lateral">
+                <p>Listas de Tareas</p>
+                <ol>
+                    <li>guardar <span class="material-symbols-outlined">
+download
+</span></li>
+                    <li>eliminar<span class="material-symbols-outlined">
+delete
+</span></li>
+                    <li>actualizar<span class="material-symbols-outlined">
+refresh
+</span></li>
+                    <li>Buscar<span class="material-symbols-outlined">
+search
+</span></li>
+                </ol>
+            </aside>
+        
+        <article 
+            
+        </article>
         </section>
+         <section class="renglon"> 
+         <article id="galeria">
+            <h3> Galeria</h3>
+            c
+
+         </article>
+         <h3> mapa de ubicacion </h3>
+         <article id="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119137.87290817624!2d-101.78455352783203!3d21.070324468763005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842b95f67d7b1631%3A0x213c7b40e99e3c65!2sTacos%20Don%20To%C3%B1o!5e0!3m2!1ses-419!2smx!4v1789404117913!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+
+         </article>
+         </section>
     </main>
-
     <footer>
-        <p>Grupo: LDSM401 &nbsp;&nbsp;|&nbsp;&nbsp;  Julieta Sánchez</p>
-    </footer>
+        <article class="pie" id="redes sociales"> <span class="material-symbols-outlined">
+            chat_bubble
+        </span>
+        <span class="material-symbols-outlined">
+home
+</span>
+    </article>
 
+        <article class="pie" id="contacto"><p> yulieta sanchez </p></article>
+        <article class="pie" id="preguntas frecuentes "></article>
+    </footer>
 </body>
 </html>
+ 
+
